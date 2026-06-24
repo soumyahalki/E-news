@@ -1,0 +1,71 @@
+.container {
+    background-color: blue;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.container div {
+    background-color: blueviolet;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container div {
+    background-color: blueviolet;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container div {
+    background-color: blueviolet;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+.header { 
+    grid-area: header;
+bacground: lightblue;
+ padding: 20px; }
+
+.sidebar { 
+    grid-area: sidebar;
+    bacground: lightgreen;
+     padding: 20px; }
+
+.content { 
+    grid-area: content;
+bacground: lightcoral; 
+padding: 20px; }
+
+.footer { 
+    grid-area: footer;
+bacground: lightgray; 
+padding: 20px; }
+
+
+
+
+
+
+

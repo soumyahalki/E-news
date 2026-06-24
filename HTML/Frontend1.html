@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📚 Student Dashboard</h1>
+
+<div class="container">
+
+    <!-- Attendance -->
+    <div class="card">
+        <h2>Attendance</h2>
+        <input type="number" id="attended" placeholder="Classes Attended">
+        <input type="number" id="total" placeholder="Total Classes">
+        <button onclick="calculateAttendance()">Calculate</button>
+        <p id="result"></p>
+    </div>
+
+    <!-- To-do -->
+    <div class="card">
+        <h2>Assignments</h2>
+        <input type="text" id="taskInput" placeholder="Enter task">
+        <button onclick="addTask()">Add</button>
+        <ul id="taskList"></ul>
+    </div>
+
+    <!-- Marks -->
+    <div class="card">
+        <h2>Marks</h2>
+        <input type="number" id="marks" placeholder="Enter marks">
+        <button onclick="checkGrade()">Check Grade</button>
+        <p id="grade"></p>
+    </div>
+
+</div>
+
+<button onclick="toggleMode()">🌙 Toggle Mode</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>

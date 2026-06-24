@@ -1,0 +1,10 @@
+
+console.log("1. Open BookMyShow - Sync&async:2");
+
+console.log("2. Search Movie - Sync&async:4");
+
+console.log("3. Select Time - Sync&async:6");
+
+console.log("4. Select Seats - Sync&async:8");
+
+console.log("5. Ticket Booked - Sync&async:10");
